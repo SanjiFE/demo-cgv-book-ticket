@@ -1,0 +1,124 @@
+{
+  "title": "Choose the visual world for CGV Experience",
+  "question": "The roll assigned Countdown Leader. Keep it, take an alternate, or re-roll. Palette stays pinned to your brief: dark ground, CGV red accent.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Countdown Leader",
+      "kicker": "THE ROLL",
+      "lineage": "35mm film leader and projection-booth reels",
+      "thesis": "Every experience is a reel on the projector: the site counts you down to your slot.",
+      "palette": ["#0B0A0A", "#1C1816", "#8E8A84", "#E52430", "#F2EDE6"],
+      "materials": ["35mm film base with sprocket holes", "printed edge codes and frame numbers", "grease-pencil marks"],
+      "viewport": "Hero photo framed as one projected frame between sprocket rails, a countdown ring ticking to 'Book a slot', service frames running down the strip.",
+      "risk": "Film-strip motifs turn into costume if sprockets decorate instead of carrying sequence; every strip must hold real slots, steps or services.",
+      "raised": [
+        {"from": "Versailles bosquet vistas", "raise": "Booking runs down one axis: each step is the next frame on the same reel, never a new screen."},
+        {"from": "Łowicz layered papercut", "raise": "Depth only from stacked flat planes of film and paper; no glows, no neon halos, no gradients."},
+        {"from": "Hand-drawn zine explainer", "raise": "One grease-pencil circle marks the single thing that matters on each view (the chosen slot, the total)."},
+        {"from": "Night-flight six-pack", "raise": "Every time slot shows its value and its trend: spots left, not just open or closed."}
+      ]
+    },
+    {
+      "id": "model-pick",
+      "label": "Showtime Board",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "cinema lobby showtime boards and ticket stubs",
+      "thesis": "Services listed like tonight's screenings; booking prints you a ticket stub.",
+      "palette": ["#111010", "#E52430", "#F4F1EC", "#3A3634"],
+      "materials": ["flip-board time tiles", "perforated ticket stock"],
+      "viewport": "A lobby board listing Escape Room, Photo Booth and Combo with next free times, hero photo beside it.",
+      "risk": "The most familiar cinema-site arrangement; where most runs in this category land."
+    },
+    {
+      "id": "challenger-gyaru",
+      "label": "Street-Fashion Spread",
+      "verdict": "competitive",
+      "lineage": "Japanese street-fashion magazine density",
+      "thesis": "The photobooth crowd as a packed magazine spread, every offer labelled by hand with its price.",
+      "palette": ["#0B0A0A", "#E52430", "#FF5FA2", "#F5C542", "#FFFFFF"],
+      "materials": ["cut-out photo figures", "outlined headlines", "leader-line price call-outs"],
+      "viewport": "Cut-out friends from the booth photos shingled across the hero with hand price tags on each service.",
+      "case": "Strong audience identification with Hanoi photobooth culture; loses on clarity for the escape room and the booking flow.",
+      "risk": "Needs real cut-out mattes the source photos cannot provide cleanly.",
+      "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-gyaru-magazine-density-hero.webp"
+    },
+    {
+      "id": "challenger-versailles",
+      "label": "Versailles Bosquet Vistas",
+      "verdict": "declined",
+      "lineage": "French formal gardens",
+      "thesis": "Axial vistas opening onto hidden garden theaters.",
+      "palette": ["#3E5A3A", "#D8CBA8", "#B8923A"],
+      "materials": ["clipped hedge", "raked gravel"],
+      "viewport": "A palace-axis vista with services as bosquets.",
+      "risk": "No connection to a cinema night out.",
+      "case": "Loses both axes: the audience does not identify with formal gardens.",
+      "kept": "Booking as one continuous axis of frames."
+    },
+    {
+      "id": "challenger-papercut",
+      "label": "Łowicz Papercut",
+      "verdict": "declined",
+      "lineage": "Polish layered papercut",
+      "thesis": "Depth by pasted flat colour layers.",
+      "palette": ["#D62828", "#1D7A3A", "#F2C200"],
+      "materials": ["glossy coloured paper"],
+      "viewport": "A symmetrical roundel of services.",
+      "risk": "Folk craft fights the cinema brand.",
+      "case": "Loses both axes.",
+      "kept": "Depth from stacked flat planes, never glow."
+    },
+    {
+      "id": "challenger-zine",
+      "label": "Hand-drawn Zine",
+      "verdict": "declined",
+      "lineage": "napkin-sketch explainers",
+      "thesis": "Marker doodles teach the offer.",
+      "palette": ["#F6F0E2", "#111111", "#FFE14D"],
+      "materials": ["marker ink", "highlighter"],
+      "viewport": "A doodled diagram of the four booking steps.",
+      "risk": "Cream-paper default; reads childish for a night out.",
+      "case": "Loses both axes.",
+      "kept": "One annotation marks the thing that matters."
+    },
+    {
+      "id": "challenger-sixpack",
+      "label": "Night-flight Six-pack",
+      "verdict": "declined",
+      "lineage": "aircraft instrument panels",
+      "thesis": "Six calm gauges you cross-check.",
+      "palette": ["#0A0A0A", "#F2F2F2", "#59E08C"],
+      "materials": ["luminous dials"],
+      "viewport": "Availability as gauges.",
+      "risk": "Cold and technical for leisure.",
+      "case": "Loses both axes.",
+      "kept": "Every slot shows value and trend."
+    },
+    {
+      "id": "challenger-tropicalia",
+      "label": "Tropicália Sleeve",
+      "verdict": "declined",
+      "lineage": "Brazilian album collage",
+      "thesis": "Mismatched-scale cut-outs in a painted jungle.",
+      "palette": ["#1F8A3B", "#FF9F1C", "#F94144"],
+      "materials": ["painted backdrop", "scissor-cut photos"],
+      "viewport": "A crowded tableau of figures.",
+      "risk": "Tropical palette breaks the pinned dark-and-red brief.",
+      "case": "Loses both axes.",
+      "kept": "Courage in scale contrast between headline and detail."
+    }
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "code", "toggle": false},
+  "canon": true,
+  "canonCard": {
+    "label": "The category standard",
+    "thesis": "A clean dark booking site: hero banner, three service cards, steps, contact form.",
+    "palette": ["#121212", "#E52430", "#FFFFFF"],
+    "materials": ["rounded cards", "full-bleed photography"],
+    "viewport": "Hero banner with headline and Book now, three equal service cards below.",
+    "risk": "Indistinguishable from every booking template by design."
+  },
+  "steer": true
+}
